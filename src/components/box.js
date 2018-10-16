@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const box = () => {
-    return(
-        <div>
-            <p>the box</p>
-        </div>
-    )
-};
+const box = (props) => {
+  return (
+    <div>
+      <p>{props.color}</p>
+    </div>
+  )
+}
 
-export default box;
+export default box

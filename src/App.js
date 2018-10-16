@@ -1,15 +1,17 @@
-import React, {Component} from 'react';
-import Box from './components/box';
-import style from './css/main.scss';
+import React, { Component } from 'react'
+import Box from './components/box'
+import './css/main.scss'
 
-
-class App extends Component {
-    render() {
-        return(
-        <div   className={style.app}>
-            <Box />
-        </div>
-        )
-    }
+class App extends React.Component {
+  render () {
+    return (
+      <div >
+        <Box
+          color={'red'}
+          size={'24px'}
+        />
+      </div>
+    )
+  }
 }
 export default App
